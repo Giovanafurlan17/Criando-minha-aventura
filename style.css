@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(6, 126, 80);
+    font-family: "Zilla Slab", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #6b9e2d;
+    color: white;
+    font-family: "Zilla Slab", serif;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #4a7a3f;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
